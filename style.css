@@ -17,6 +17,9 @@ html{
     width: 3rem;
     height: 3rem;
     background-color: red;
+    position: fixed;
+    top: 5rem;
+    left: 4rem;
 }
 .header{
     width: 100%;

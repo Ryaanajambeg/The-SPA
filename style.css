@@ -322,10 +322,33 @@ html{
      grid-column: 2/11;
      grid-row: 1/3;
  }
+ .progress-bar{
+     position: relative;
+     width: 65rem;
+     height: 7rem;
+     border: 1.2px solid #314a8d;
+     grid-column: 7/14;
+     grid-row: 5/6;   
+ }
+ .progress-bar-fill{
+     height: 100%;
+     background-color: #28d345;
+     transition: width 0.5s;
+ }
  .network-heading{
      display: flex;
      align-items: center;
      margin-bottom: 0.7rem;
+ }
+ .progress-bar-value{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     font-size: 3.2rem;
  }
  .network-heading i{
      font-size: 5rem;

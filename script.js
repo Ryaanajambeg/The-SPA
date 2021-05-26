@@ -1,6 +1,6 @@
 document.querySelector('.menuitems').addEventListener('click',() =>{
-document.querySelector('.container').classList.toggle('change');
-});
+    document.querySelector('.container').classList.toggle('change');
+    });
 
 document.querySelector('.scroll-btn').addEventListener
 ('click', () => {
@@ -44,8 +44,6 @@ const pb1=new ProgressBar(document.querySelector('.progress-bar'), 78);
 
 let chart = document.getElementById('chart').getContext('2d');
 
-
-
 let connectchart = new Chart(chart, {
         type: 'bar',
         data:{
@@ -73,9 +71,4 @@ let connectchart = new Chart(chart, {
             }]
         },
         options: {}
-            
-      
-        
-
-
 });
